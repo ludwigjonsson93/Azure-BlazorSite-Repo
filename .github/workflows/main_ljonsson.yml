@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: .net-app
-          path: ${{env.DOTNET_ROOT}}/bin/Release/Net7.0
+          path: ./bin/Release/Net7.0
 
   deploy:
     runs-on: windows-latest
